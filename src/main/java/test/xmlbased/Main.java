@@ -9,7 +9,7 @@ public class Main {
          * IOC configuration types:
          * 1. xml based conf:  ClassPathXmlApplicationContext
          * 2. java based conf: AnnotationBasedApplicationContext
-         * 3. annotation based conf
+         * 3. annotation based (auto) conf
          */
 
         /**
@@ -63,7 +63,7 @@ public class Main {
          * 2. byName
          * 3. byType
          * 4. no
-         * 5. default
+         * 5. default (byName, byType)
          */
 
 
