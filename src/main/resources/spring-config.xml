@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="motor1" class="test.xmlbased.BenzinEngine" primary="true"/>
+    <bean id="motor" class="test.xmlbased.MetanEngine"/>
+
+    <bean id="car" class="test.xmlbased.Car" autowire="no" lazy-init="true">
+
+    </bean>
+
+</beans>
